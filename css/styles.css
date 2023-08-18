@@ -1,7 +1,10 @@
 .body{
-    
+color: #2C2C2C;
+background-color: #FFFFFF;
+font-family: 'Roboto', sans-serif;
 }
 
 button{
     cursor: pointer;
     }
+
