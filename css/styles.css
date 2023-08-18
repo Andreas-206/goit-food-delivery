@@ -5,6 +5,29 @@ font-family: 'Roboto', sans-serif;
 }
 
 button{
-    cursor: pointer;
-    }
+cursor: pointer;
+}
+        
+.list{
+list-style-type: none;
+}
 
+.link{
+text-decoration: none;
+}
+
+/* Header */
+
+.header{
+    color: #2C2C2C;
+    background-color: #FEFEFE;
+}
+
+.navigation{
+color: var(--black, #2C2C2C);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
