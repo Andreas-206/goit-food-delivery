@@ -24,10 +24,17 @@ text-decoration: none;
 }
 
 .navigation{
-color: var(--black, #2C2C2C);
+color: #2C2C2C;
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+align-items: center;
+}
+
+.nav-list{
+display: flex;
+gap: 28px;
+text-align: center;
 }
