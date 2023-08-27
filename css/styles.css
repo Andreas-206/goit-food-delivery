@@ -5,7 +5,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .container{
-
+width: 1280px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 button{
@@ -41,4 +44,10 @@ align-items: center;
 display: flex;
 gap: 28px;
 text-align: center;
+}
+
+/* Footer */
+
+.footer-list{
+display: flex;
 }
