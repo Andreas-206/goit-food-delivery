@@ -46,6 +46,21 @@ gap: 28px;
 text-align: center;
 }
 
+/* Section 1 */
+/* Section 2 */
+
+/* Section 3 */
+
+
+
+.favorites-list{
+display: flex;
+flex-wrap: wrap;
+gap: 32px;
+}
+
+/* Section 4 */
+
 /* Footer */
 
 .footer-list{
