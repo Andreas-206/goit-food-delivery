@@ -1,27 +1,55 @@
-.body{
-color: #2C2C2C;
-background-color: #FFFFFF;
-font-family: 'Roboto', sans-serif;
+:root {
+    --black-color: #2c2c2c;
 }
 
-.container{
-width: 1280px;
-margin: 0 auto;
-padding-left: 15px;
-padding-right: 15px;
+/* Стилі для обнулення верхніх відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
-button{
-cursor: pointer;
-}
-        
-.list{
-list-style-type: none;
+/* Клас для обнулення базових властивостей списків (ul) */
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
-.link{
-text-decoration: none;
+/* Клас для обнулення базових властивостей у посилань */
+.link {
+    text-decoration: none;
 }
+
+/* Властивості для коректного відображення картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+
+address {
+    font-style: normal;
+}
+
+body {
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Kalam', cursive; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.container {
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
 
 /* Header */
 
@@ -51,13 +79,26 @@ text-align: center;
 
 /* Section 3 */
 
-
-
-.favorites-list{
-display: flex;
-flex-wrap: wrap;
-gap: 32px;
-}
+.food-list{
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 100px;
+    }
+    
+    .our-favorites{
+    text-align: center;
+    background-color: #FEFEFE;
+    }
+    
+    .title-favorites{
+    padding-top: 100px;
+    margin-bottom: 20px;
+    }
+    
+    .looking-food-list{
+    margin-bottom: 40px;
+    }
 
 /* Section 4 */
 
